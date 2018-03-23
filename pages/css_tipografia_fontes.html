@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Linguagem CSS - Tipografia - Fontes</title>
+    <link rel="stylesheet" href="../styles/site.css">
+    <style>
+        #p1 { background-color: aquamarine; font-family: times;
+            line-height: normal;
+        }
+        #p2 { background-color:lightpink; font-family: arial;
+            line-height: 1.6;       
+            font-style: italic;            
+        }
+        #p3 { background-color:greenyellow; font-family: monospace;
+            line-height: 300%;
+            color: red;            
+        }
+        .bolder { font-weight: bolder }
+        .smallcaps { font-variant: small-caps; }
+    </style>
+</head>
+<body>
+    <h1>Tecnologias Web - PUC Minas</h1>    
+    <p>Exemplos de Parágrafos formatados</p>
+    <div class="exemplo">
+            <h3>Parágrafo com espaçamento normal</h3>
+            <p id="p1">Phasellus ultrices enim eu felis scelerisque, id pulvinar ante semper. <br><span>Duis ac consequat orci.</span></p>
+    </div>
+    <div class="exemplo">
+        <h3>Parágrafo com espaçamento de 1,6</h3>
+        <p id="p2"> In ultricies pulvinar enim quis luctus. <br><span class="smallcaps">Texto com font-variant: small-caps.</span></p>
+    </div>
+    <div class="exemplo">
+        <h3>Parágrafo com espaçamento de 300%</h3>
+        <p id="p3">Suspendisse potenti. Praesent nec elit rhoncus, consequat orci id. <br><span class="bolder">Texto com font-weight: bolder.</span></p>
+    </div>
+</body>
+</html>
